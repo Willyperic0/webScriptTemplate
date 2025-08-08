@@ -1,0 +1,14 @@
+#Codigos usados para configurar back en web
+#(NO ENTREGAR NODE MODULES)
+mkdir build
+mkdir src
+mkdir test
+#todos estos comandos estan siendo usados en vscode
+npm init -y
+npm i typescript -D 
+tsc --init
+npm i @types/node
+#crear la configuracion en tsconfig
+#condigurar package.json "build": "tsc",
+
+npm run build
